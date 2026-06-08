@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electria - Testimonials</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: {
+                        brand: {
+                            dark: '#13151a',
+                            card: '#1e2128',
+                            yellow: '#facc15',
+                            yellowHover: '#eab308'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brand-dark text-gray-300 font-sans antialiased">
+
+    <nav class="sticky top-0 z-50 bg-brand-dark/95 backdrop-blur-md border-b border-white/5 py-4">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <a href="./Home.html" class="flex items-center gap-2 group">
+                <div class="text-brand-yellow"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+                <span class="text-white font-bold text-xl tracking-wide group-hover:text-brand-yellow transition">ELECTRIA</span>
+            </a>
+            <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-400">
+                <a href="./Home.html    " class="hover:text-white transition">Home</a>
+                <a href="./About.html" class="hover:text-white transition">About</a>
+                <a href="./Services.html" class="hover:text-white transition">Services</a>
+                <a href="./FAQ.html" class="hover:text-white transition">FAQ</a>
+                <a href="./Blog.html" class="hover:text-white transition">Blog</a>
+            </div>
+            <a href="./Quote.html" class="bg-brand-yellow text-brand-dark px-6 py-2.5 rounded-full font-bold text-sm hover:bg-brand-yellowHover transition">Get a Quote</a>
+        </div>
+    </nav>
+
+    <header class="py-24 text-center">
+        <h1 class="text-5xl font-bold text-white uppercase tracking-tight">Testimonials</h1>
+    </header>
+
+    <section class="container mx-auto px-6 pb-24">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <div class="bg-brand-card p-8 rounded-3xl border border-white/5 flex flex-col justify-between hover:border-brand-yellow/30 transition duration-300">
+                <div>
+                    <div class="text-brand-yellow text-sm mb-6">★★★★★</div>
+                    <p class="text-gray-400 mb-8 leading-relaxed italic">"Electria responded incredibly fast when we had a major power outage. The technician was polite, professional, and had our power back on in under an hour. Highly recommended!"</p>
+                </div>
+                <div class="flex items-center gap-4 border-t border-white/10 pt-6">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80" class="w-12 h-12 rounded-full object-cover" alt="User">
+                    <div>
+                        <div class="text-white font-bold text-sm">John R.</div>
+                        <div class="text-gray-500 text-xs">Homeowner</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-brand-card p-8 rounded-3xl border border-white/5 flex flex-col justify-between hover:border-brand-yellow/30 transition duration-300">
+                <div>
+                    <div class="text-brand-yellow text-sm mb-6">★★★★★</div>
+                    <p class="text-gray-400 mb-8 leading-relaxed italic">"We hired them to upgrade the wiring in our old office building. The team worked efficiently and didn't disrupt our business operations. Top-tier service from start to finish."</p>
+                </div>
+                <div class="flex items-center gap-4 border-t border-white/10 pt-6">
+                    <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&q=80" class="w-12 h-12 rounded-full object-cover" alt="User">
+                    <div>
+                        <div class="text-white font-bold text-sm">Sarah M.</div>
+                        <div class="text-gray-500 text-xs">Business Owner</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-brand-card p-8 rounded-3xl border border-white/5 flex flex-col justify-between hover:border-brand-yellow/30 transition duration-300">
+                <div>
+                    <div class="text-brand-yellow text-sm mb-6">★★★★★</div>
+                    <p class="text-gray-400 mb-8 leading-relaxed italic">"Fair pricing, clear communication, and excellent work quality. They installed new LED lighting throughout my house and it looks fantastic. Will use them again."</p>
+                </div>
+                <div class="flex items-center gap-4 border-t border-white/10 pt-6">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80" class="w-12 h-12 rounded-full object-cover" alt="User">
+                    <div>
+                        <div class="text-white font-bold text-sm">Michael T.</div>
+                        <div class="text-gray-500 text-xs">Property Manager</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-brand-card p-8 rounded-3xl border border-white/5 flex flex-col justify-between hover:border-brand-yellow/30 transition duration-300">
+                <div>
+                    <div class="text-brand-yellow text-sm mb-6">★★★★★</div>
+                    <p class="text-gray-400 mb-8 leading-relaxed italic">"Electria's team is reliable and knowledgeable. They solved a complex wiring issue that two other companies couldn't figure out. Excellent!"</p>
+                </div>
+                <div class="flex items-center gap-4 border-t border-white/10 pt-6">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&q=80" class="w-12 h-12 rounded-full object-cover" alt="User">
+                    <div>
+                        <div class="text-white font-bold text-sm">Emily B.</div>
+                        <div class="text-gray-500 text-xs">Homeowner</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-brand-card p-8 rounded-3xl border border-white/5 flex flex-col justify-between hover:border-brand-yellow/30 transition duration-300">
+                <div>
+                    <div class="text-brand-yellow text-sm mb-6">★★★★★</div>
+                    <p class="text-gray-400 mb-8 leading-relaxed italic">"Professionalism at its best. They arrived on time, completed the work quickly, and cleaned up everything perfectly. Very happy with the results."</p>
+                </div>
+                <div class="flex items-center gap-4 border-t border-white/10 pt-6">
+                    <img src="https://images.unsplash.com/photo-1531123897727-8f129e1bf98c?w=100&q=80" class="w-12 h-12 rounded-full object-cover" alt="User">
+                    <div>
+                        <div class="text-white font-bold text-sm">David L.</div>
+                        <div class="text-gray-500 text-xs">Homeowner</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-brand-card p-8 rounded-3xl border border-white/5 flex flex-col justify-between hover:border-brand-yellow/30 transition duration-300">
+                <div>
+                    <div class="text-brand-yellow text-sm mb-6">★★★★★</div>
+                    <p class="text-gray-400 mb-8 leading-relaxed italic">"The whole process from quoting to installation was seamless. They really know their craft. I appreciate their attention to safety."</p>
+                </div>
+                <div class="flex items-center gap-4 border-t border-white/10 pt-6">
+                    <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=100&q=80" class="w-12 h-12 rounded-full object-cover" alt="User">
+                    <div>
+                        <div class="text-white font-bold text-sm">Jessica M.</div>
+                        <div class="text-gray-500 text-xs">Homeowner</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="py-24 bg-brand-dark border-t border-white/5">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-10">LET US SOLVE YOUR ELECTRICAL PROBLEMS</h2>
+            <a href="#" class="bg-brand-yellow text-brand-dark px-8 py-4 rounded-full font-bold hover:bg-brand-yellowHover transition shadow-lg shadow-yellow-500/20 inline-flex items-center gap-3">
+                123 456 789 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M3 5.5C3 4.119 4.119 3 5.5 3h4.09c.642 0 1.206.417 1.41 1.026l1.096 3.287c.18.541.028 1.15-.395 1.536l-1.928 1.753c1.353 2.76 3.528 4.935 6.288 6.288l1.753-1.928c.386-.423.995-.575 1.536-.395l3.287 1.096c.609.204 1.026.768 1.026 1.41v4.09c0 1.381-1.119 2.5-2.5 2.5C10.605 21 3 13.395 3 2.5z"/></svg>
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-brand-dark py-12 border-t border-white/5 text-sm text-gray-500">
+        <div class="container mx-auto px-6 grid md:grid-cols-4 gap-8">
+            <div><a href="#" class="text-white font-bold text-xl mb-4 block">ELECTRIA</a><p>© 2024 Electria Template.</p></div>
+            <div><h4 class="text-white font-bold mb-4">PAGES</h4><ul class="space-y-2"><li>About</li><li>Services</li><li>FAQ</li></ul></div>
+            <div><h4 class="text-white font-bold mb-4">COMPANY</h4><ul class="space-y-2"><li>Contact</li><li>Privacy</li></ul></div>
+            <div><h4 class="text-white font-bold mb-4">CONTACT</h4><ul class="space-y-2"><li>123 NY street, New York</li><li>123 456 789</li><li>contact@example.com</li></ul></div>
+        </div>
+    </footer>
+
+</body>
+</html>

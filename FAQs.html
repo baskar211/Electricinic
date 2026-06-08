@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electria - FAQ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: {
+                        brand: {
+                            dark: '#13151a',
+                            card: '#1e2128',
+                            yellow: '#facc15',
+                            yellowHover: '#eab308'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brand-dark text-gray-300 font-sans">
+
+    <nav class="sticky top-0 z-50 bg-brand-dark/95 backdrop-blur-md border-b border-white/5 py-4">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <a href="./Home.html" class="flex items-center gap-2 group">
+                <div class="text-brand-yellow"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+                <span class="text-white font-bold text-xl tracking-wide group-hover:text-brand-yellow transition">ELECTRIA</span>
+            </a>
+            <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-400">
+                <a href="./Home.html" class="hover:text-white transition">Home</a>
+                <a href="./About.html" class="hover:text-white transition">About</a>
+                <a href="./Services.html" class="hover:text-white transition">Services</a>
+                <a href="./FAQs.html" class="text-white">FAQ</a>
+                <a href="./Blog.html" class="hover:text-white transition">Blog</a>
+            </div>
+            <a href="./Quote.html" class="bg-brand-yellow text-brand-dark px-6 py-2.5 rounded-full font-bold text-sm hover:bg-brand-yellowHover transition">Get a Quote</a>
+        </div>
+    </nav>
+
+    <section class="py-24 text-center"> 
+        <h1 class="text-4xl md:text-5xl font-bold text-white uppercase tracking-tight">Frequently Asked Questions</h1>
+    </section>
+
+    <section class="container mx-auto px-6 pb-24">
+        <div class="max-w-3xl mx-auto divide-y divide-white/10 border-b border-white/10">
+            
+            <details class="group">
+                <summary class="flex justify-between items-center py-8 font-bold text-white cursor-pointer hover:text-brand-yellow transition">
+                    <span class="text-lg">What areas do you serve?</span>
+                    <span class="text-brand-yellow transition-transform group-open:rotate-180">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                    </span>
+                </summary>
+                <div class="pb-8 text-gray-400 text-sm leading-relaxed">
+                    We proudly serve the greater metropolitan area and surrounding suburbs. If you are unsure whether your location falls within our service area, please give us a call or send us an email.
+                </div>
+            </details>
+
+            <details class="group">
+                <summary class="flex justify-between items-center py-8 font-bold text-white cursor-pointer hover:text-brand-yellow transition">
+                    <span class="text-lg">Do you handle small residential jobs?</span>
+                    <span class="text-brand-yellow transition-transform group-open:rotate-180">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                    </span>
+                </summary>
+                <div class="pb-8 text-gray-400 text-sm leading-relaxed">
+                    Yes, no job is too small! We handle everything from replacing a single outlet or light switch to full home rewiring and panel upgrades.
+                </div>
+            </details>
+
+            <details class="group">
+                <summary class="flex justify-between items-center py-8 font-bold text-white cursor-pointer hover:text-brand-yellow transition">
+                    <span class="text-lg">How soon can you arrive?</span>
+                    <span class="text-brand-yellow transition-transform group-open:rotate-180">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                    </span>
+                </summary>
+                <div class="pb-8 text-gray-400 text-sm leading-relaxed">
+                    For emergency electrical issues, we aim to arrive within 2 hours. For non-urgent, scheduled services, we work closely with you to find the most convenient time.
+                </div>
+            </details>
+
+            <details class="group">
+                <summary class="flex justify-between items-center py-8 font-bold text-white cursor-pointer hover:text-brand-yellow transition">
+                    <span class="text-lg">Do you offer free estimates?</span>
+                    <span class="text-brand-yellow transition-transform group-open:rotate-180">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                    </span>
+                </summary>
+                <div class="pb-8 text-gray-400 text-sm leading-relaxed">
+                    Yes, we provide free, no-obligation estimates for most installation and upgrade projects to ensure you know the costs upfront.
+                </div>
+            </details>
+
+            <details class="group">
+                <summary class="flex justify-between items-center py-8 font-bold text-white cursor-pointer hover:text-brand-yellow transition">
+                    <span class="text-lg">Are your technicians licensed and insured?</span>
+                    <span class="text-brand-yellow transition-transform group-open:rotate-180">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                    </span>
+                </summary>
+                <div class="pb-8 text-gray-400 text-sm leading-relaxed">
+                    Yes, all our electricians are fully licensed, bonded, and insured, providing you with full protection and peace of mind during our service.
+                </div>
+            </details>
+
+        </div>
+    </section>
+
+    <section class="py-24 bg-brand-dark border-t border-white/5">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-10">LET US SOLVE YOUR ELECTRICAL PROBLEMS</h2>
+            <a href="#" class="bg-brand-yellow text-brand-dark px-8 py-4 rounded-full font-bold hover:bg-brand-yellowHover transition shadow-lg shadow-yellow-500/20 inline-flex items-center gap-3">
+                123 456 789 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M3 5.5C3 4.119 4.119 3 5.5 3h4.09c.642 0 1.206.417 1.41 1.026l1.096 3.287c.18.541.028 1.15-.395 1.536l-1.928 1.753c1.353 2.76 3.528 4.935 6.288 6.288l1.753-1.928c.386-.423.995-.575 1.536-.395l3.287 1.096c.609.204 1.026.768 1.026 1.41v4.09c0 1.381-1.119 2.5-2.5 2.5C10.605 21 3 13.395 3 2.5z"/></svg>
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-brand-dark py-12 border-t border-white/5 text-sm text-gray-500">
+        <div class="container mx-auto px-6 grid md:grid-cols-4 gap-8">
+            <div><a href="#" class="text-white font-bold text-xl mb-4 block">ELECTRIA</a><p>© 2024 Electria Template.</p></div>
+            <div><h4 class="text-white font-bold mb-4">PAGES</h4><ul class="space-y-2"><li>About</li><li>Services</li><li>FAQ</li></ul></div>
+            <div><h4 class="text-white font-bold mb-4">COMPANY</h4><ul class="space-y-2"><li>Contact</li><li>Privacy</li></ul></div>
+            <div><h4 class="text-white font-bold mb-4">CONTACT</h4><ul class="space-y-2"><li>123 NY street, New York</li><li>123 456 789</li><li>contact@example.com</li></ul></div>
+        </div>
+    </footer>
+
+</body>
+</html>
